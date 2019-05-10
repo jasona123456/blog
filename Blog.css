@@ -1,0 +1,158 @@
+	body {
+		margin: 0 auto;
+		padding: 0;
+		font-family: Raleway;
+		background-color: #fff;
+	}
+	nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100px;
+		padding: 10px 100px;
+		box-sizing: border-box;
+		transition: .3s;
+
+	}
+	nav.white {
+		background: #000;
+		height: 160px;
+		padding: 10px 100px;
+
+	}
+	.logo img {
+		padding: 20px 20px;
+		height: 110px;
+		float: left;
+		
+	}
+
+	nav ul {
+		list-style: none;
+		float: right;
+		margin: 0;
+		padding: 0; 
+		display: flex;
+
+	}
+
+	nav ul li a {
+		line-height: 170px;
+		color: #000;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding: 50px 70px;
+		transition: .3s;
+		font-size: 18px;
+
+
+	}
+
+	nav.white ul li a {
+		 color: #fff;
+		 font-size: 18px;
+	}
+
+
+	nav ul li a: focus {
+		outline: none;
+
+	}
+	    div.container
+	  {
+    /*font-family: Raleway;*/
+    /*margin: 0 auto;*/
+    padding: 10px 10px;
+    /*text-align: right;*/
+
+
+
+  }
+
+  ul.container a
+  {
+ 	  line-height: 150px; 	
+      color: #000;
+      /*text-decoration: none;*/
+      /*font: 20px Raleway;*/
+      margin: 0px 20px;
+      padding: 10px 20px;
+      position: relative;
+      z-index: 0;
+      cursor: pointer;
+
+  }
+
+
+
+  ul.borderXwidth a:before, ul.borderXwidth a:after
+  {
+      position: absolute;
+      opacity: 0;
+      width: 0%;
+      height: 2px;
+      content: '';
+      background: #fff;
+      transition: all 0.3s;
+
+  }
+
+  ul.borderXwidth a:before
+  {
+      left: 0px;
+      top: 0px;
+
+  }
+
+  ul.borderXwidth a:after
+  {
+      right: 0px;
+      bottom: 0px;
+  }
+
+  ul.borderXwidth a:hover:before, ul.borderXwidth a:hover:after
+  {
+      opacity: 100;
+      width: 100%;
+      background: #fff;
+  } 
+  ul.borderXwidth a :after {
+  	background-color: #000;
+  }
+.content-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+         /*Misc*/
+      .clearfix {
+        clear: both;
+      }
+
+      .content-wrapper {
+        max-width: 1300px;
+        margin: 0 auto;
+        height: 100px;
+        z-index: 999999;
+        transition: all ease .5s;
+      }
+
+      .sec1 {
+        margin-top: 500px;
+        background-color: white;
+        padding-top: 1000px;
+
+    }
+     h1{
+     	color: #000;
+     	/*padding: 30px 400px;
+     	text-align: center;
+     	*/
+     }
+     h2 {
+     	color: #000;
+     	/*padding: 50px 400px;*/
+
+     }
+    
+   
